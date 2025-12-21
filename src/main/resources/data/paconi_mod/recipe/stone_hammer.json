@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {"item":  "minecraft:stick"},
+    "B": {"item":  "minecraft:cobblestone"}
+  },
+  "pattern": [
+    "BBB",
+    "BSB",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "paconi_mod:stone_hammer"
+  }
+}

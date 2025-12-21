@@ -47,6 +47,8 @@ public class ModItems {
     public static  final DeferredItem<HammerItem> NETHERITE_HAMMER = ITEMS.register(
             "netherite_hammer",
             () -> new HammerItem(Tiers.NETHERITE, new Item.Properties()
+                    // Resistencia al fuego
+                    .fireResistant()
                     .attributes(PickaxeItem.createAttributes(Tiers.NETHERITE, 8.8F, -2.5F)))
     );
 

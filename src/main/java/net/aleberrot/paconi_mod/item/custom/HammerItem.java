@@ -22,36 +22,6 @@ public class HammerItem extends DiggerItem {
 
 
     // logica 3x3
-
-    /*
-    public static List<BlockPos> getBlocksToBeDestroyed(int range, BlockPos targetPos, ServerPlayer player) {
-        List<BlockPos> positions = new ArrayList<>();
-
-        // Lanzamos un rayo para saber desde qué cara del bloque está mirando el jugador (Norte, Sur, Arriba, etc.)
-        HitResult hitResult = player.pick(20, 0, false);
-        if (hitResult.getType() == HitResult.Type.BLOCK) {
-            BlockHitResult blockHitResult = (BlockHitResult) hitResult;
-            Direction side = blockHitResult.getDirection();
-
-            // Dependiendo de la cara que mires, el 3x3 se expande de forma diferente
-            for (int x = -range; x <= range; x++) {
-                for (int y = -range; y <= range; y++) {
-                    for (int z = -range; z <= range; z++) {
-                        if (side == Direction.UP || side == Direction.DOWN) {
-                            if (y == 0) positions.add(targetPos.offset(x, y, z));
-                        } else if (side == Direction.NORTH || side == Direction.SOUTH) {
-                            if (z == 0) positions.add(targetPos.offset(x, y, z));
-                        } else if (side == Direction.EAST || side == Direction.WEST) {
-                            if (x == 0) positions.add(targetPos.offset(x, y, z));
-                        }
-                    }
-                }
-            }
-        }
-        return positions;
-    }
-    */
-
     public static List<BlockPos> getBlocksToBeDestroyed(int range, BlockPos initalBlockPos, ServerPlayer player) {
         List<BlockPos> positions = new ArrayList<>();
 
@@ -92,7 +62,7 @@ public class HammerItem extends DiggerItem {
     // Descripcion
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.literal("Arma pesada que sirve para minar...")
+        tooltipComponents.add(Component.literal("Arma pesada que sirve para minar 3x3")
                 .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }

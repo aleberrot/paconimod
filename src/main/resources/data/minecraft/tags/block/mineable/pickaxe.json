@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "paconi_mod:stone_hammer",
-    "paconi_mod:copper_hammer",
-    "paconi_mod:iron_hammer",
-    "paconi_mod:gold_hammer",
-    "paconi_mod:diamond_hammer",
-    "paconi_mod:netherite_hammer"
+    { "id": "paconi_mod:stone_hammer", "required": false },
+    { "id": "paconi_mod:copper_hammer", "required": false },
+    { "id": "paconi_mod:iron_hammer", "required": false },
+    { "id": "paconi_mod:gold_hammer", "required": false },
+    { "id": "paconi_mod:diamond_hammer", "required": false },
+    { "id": "paconi_mod:netherite_hammer", "required": false }
   ]
 }

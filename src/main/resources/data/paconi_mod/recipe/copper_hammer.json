@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {"item":  "minecraft:stick"},
+    "I": {"item":  "minecraft:copper_ingot"},
+    "B": {"item":  "minecraft:copper_block"}
+  },
+  "pattern": [
+    "IBI",
+    "ISI",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "paconi_mod:copper_hammer"
+  }
+}
