@@ -1,0 +1,11 @@
+{
+  "itemGroup.examplemod": "Example Mod Tab",
+  "block.examplemod.example_block": "Example Block",
+  "item.examplemod.example_item": "Example Item",
+  "item.paconi_mod.stone_hammer": "Stone Hammer",
+  "item.paconi_mod.copper_hammer": "Copper Hammer",
+  "item.paconi_mod.iron_hammer": "Iron Hammer",
+  "item.paconi_mod.gold_hammer": "Gold Hammer",
+  "item.paconi_mod.diamond_hammer": "Diamond Hammer",
+  "item.paconi_mod.netherite_hammer": "Netherite Hammer"
+}

@@ -1,25 +1,40 @@
+🔨 Paconi Mod - Minecraft 1.21.1
+¡Bienvenido a Paconi Mod! Este mod para NeoForge expande la experiencia vanilla añadiendo materiales preciosos y herramientas pesadas diseñadas para jugadores que buscan potencia y estilo.
 
-Installation information
-=======
+✨ Características Principales
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+🍫 La Mecánica del "Cacaito"
+El corazón del mod. Introduce un sistema de interacción donde los jugadores pueden gestionar y pedir su "cacaito".
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+Eventos personalizados: Sistema de mensajes y lógica dedicada para la petición de cacaito.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+Integración: Una mecánica divertida diseñada para dinamizar las partidas multijugador.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+⚒️ Herramientas Pesadas: Hammers (Martillos)
+Se han añadido martillos de diversos materiales para complementar el arsenal de herramientas:
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Tiers disponibles: Piedra, Hierro, Oro, Diamante, Netherite y Zafiro.
+
+Atributos: * Daño masivo: Ideales para defenderte mientras minas.
+
+Velocidad lenta: El peso del martillo hace que cada golpe sea lento pero devastador.
+
+Utilidad: Funcionan como picos de alto rendimiento.
+
+🚧 Estado del Desarrollo (Work in Progress)
+[!IMPORTANT] Aviso sobre los Hammers: Actualmente, los martillos funcionan como herramientas de minado estándar (1x1). La funcionalidad de minado en área 3x3 se encuentra en fase de desarrollo técnico y será implementada en una futura actualización.
+
+🛠️ Requisitos Técnicos
+Versión de Minecraft: 1.21.1
+
+Cargador de Mods: NeoForge
+
+Java: 21
+
+📂 Estructura del Proyecto
+src/main/java: Lógica del mod, registros y clases personalizadas.
+
+src/main/resources/assets/paconi_mod: Modelos 3D, archivos JSON y texturas de alta calidad creadas con GIMP y Blockbench.
+
+👨‍💻 Créditos
+Desarrollado por Aleberrot.
