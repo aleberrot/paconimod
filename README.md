@@ -13,16 +13,12 @@ Integración: Una mecánica divertida diseñada para dinamizar las partidas mult
 ⚒️ Herramientas Pesadas: Hammers (Martillos)
 Se han añadido martillos de diversos materiales para complementar el arsenal de herramientas:
 
-Tiers disponibles: Piedra, Hierro, Oro, Diamante, Netherite y Zafiro.
+Tiers disponibles: Piedra, Hierro, Oro, Diamante, Netherite y Cobre.
 
-Atributos: * Daño masivo: Ideales para defenderte mientras minas.
 
 Velocidad lenta: El peso del martillo hace que cada golpe sea lento pero devastador.
 
-Utilidad: Funcionan como picos de alto rendimiento.
-
-🚧 Estado del Desarrollo (Work in Progress)
-[!IMPORTANT] Aviso sobre los Hammers: Actualmente, los martillos funcionan como herramientas de minado estándar (1x1). La funcionalidad de minado en área 3x3 se encuentra en fase de desarrollo técnico y será implementada en una futura actualización.
+Utilidad: Funcionan como picos de alto rendimiento 3x3.
 
 🛠️ Requisitos Técnicos
 Versión de Minecraft: 1.21.1

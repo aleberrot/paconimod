@@ -15,35 +15,6 @@ import java.util.Set;
 
 @EventBusSubscriber(modid = PaconiMod.MOD_ID)
 public class HammerEvent {
-    /*
-    @SubscribeEvent
-    public static void onHammerBlockBreak(BlockEvent.BreakEvent event) {
-        if (event.getLevel().isClientSide()) return;
-        if (event.getPlayer() instanceof ServerPlayer serverPlayer) {
-            ItemStack mainHandItem = serverPlayer.getMainHandItem();
-
-            // Verificar si lo que tiene en la mano es un Hammer
-            if (mainHandItem.getItem() instanceof HammerItem hammer) {
-                BlockPos initialBlockPos = event.getPos();
-
-                // Obtenemos la lista de bloques 3x3 (rango 1 a cada lado)
-                // Usamos una pequeña precaución para evitar bucles infinitos
-                List<BlockPos> extraBlocks = HammerItem.getBlocksToBeDestroyed(1, initialBlockPos, serverPlayer);
-
-                for (BlockPos pos : extraBlocks) {
-                    if (pos.equals(initialBlockPos)) continue;
-
-                    // Romper el bloque y soltar los items (si el martillo puede picarlo)
-                    serverPlayer.gameMode.destroyBlock(pos);
-
-                    // Opcional: Gastar durabilidad por cada bloque extra
-                    // mainHandItem.hurtAndBreak(1, serverPlayer, LivingEntity.getSlotForHand(serverPlayer.getUsedItemHand()));
-                }
-            }
-        }
-    }
-    */
-
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
 
     // Done with the help of https://github.com/CoFH/CoFHCore/blob/1.19.x/src/main/java/cofh/core/event/AreaEffectEvents.java

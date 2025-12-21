@@ -19,10 +19,9 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(Tiers.STONE, 4F, -3.6F)))
     );
 
-    // TODO create copper TIER
     public static final DeferredItem<HammerItem> COPPER_HAMMER = ITEMS.register(
             "copper_hammer",
-            () -> new HammerItem(Tiers.STONE, new Item.Properties()
+            () -> new HammerItem(ModToolTier.COPPER_TIER, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(Tiers.STONE, 4.8F, -3.5F)))
     );
 
