@@ -17,4 +17,15 @@ public class ModToolTier {
             // Indica que se puede reparar con lingotes de cobre en el yunque
             () -> Ingredient.of(Items.COPPER_INGOT)
     );
+
+    public static final Tier BISMUTH_TIER = new SimpleTier(
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            3000,
+            7.0F,
+            7.0F,
+            20,
+            () -> Ingredient.of(Items.NETHER_BRICK)
+
+    );
+
 }

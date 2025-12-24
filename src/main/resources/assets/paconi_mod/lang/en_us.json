@@ -7,5 +7,8 @@
   "item.paconi_mod.iron_hammer": "Iron Hammer",
   "item.paconi_mod.gold_hammer": "Gold Hammer",
   "item.paconi_mod.diamond_hammer": "Diamond Hammer",
-  "item.paconi_mod.netherite_hammer": "Netherite Hammer"
+  "item.paconi_mod.netherite_hammer": "Netherite Hammer",
+  "item.paconi_mod.bismuth_hammer": "Bismuth Hammer",
+
+  "effect.paconi_mod.cacaito": "Cacaito"
 }

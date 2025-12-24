@@ -1,5 +1,6 @@
 package net.aleberrot.paconi_mod;
 
+import net.aleberrot.paconi_mod.effect.ModEffects;
 import net.aleberrot.paconi_mod.event.HammerEvent;
 import net.aleberrot.paconi_mod.item.ModItems;
 import org.slf4j.Logger;
@@ -37,6 +38,9 @@ public class PaconiMod {
 
         // Register ModItems
         ModItems.register(modEventBus);
+
+        // Register effects
+        ModEffects.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "paconi_mod:item/bismuth_hammer"
+  }
+}

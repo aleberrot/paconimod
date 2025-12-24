@@ -51,6 +51,13 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(Tiers.NETHERITE, 8.8F, -2.5F)))
     );
 
+    public static  final DeferredItem<HammerItem> BISMUTH_HAMMER = ITEMS.register(
+            "bismuth_hammer",
+            () -> new HammerItem(ModToolTier.BISMUTH_TIER, new Item.Properties()
+                    .fireResistant()
+                    .attributes(PickaxeItem.createAttributes(ModToolTier.BISMUTH_TIER, 10.2F, -1.1F)))
+    );
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

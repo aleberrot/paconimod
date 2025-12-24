@@ -6,6 +6,7 @@
     { "id": "paconi_mod:iron_hammer", "required": false },
     { "id": "paconi_mod:gold_hammer", "required": false },
     { "id": "paconi_mod:diamond_hammer", "required": false },
-    { "id": "paconi_mod:netherite_hammer", "required": false }
+    { "id": "paconi_mod:netherite_hammer", "required": false },
+    { "id": "paconi_mod:bismuth_hammer", "required":  false}
   ]
 }
